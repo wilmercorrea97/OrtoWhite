@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OrtoWhite</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <!--
+              <ion-icon name="mail-outline"></ion-icon>
+
+              
+              <a href="mailto:info@example.com" class="contact-link"
+                >info@example.com</a
+              >
+              -->
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a
+                href="https://wa.me/+56985365830"
+                class="contact-link"
+                target="_blank"
+                >+57-310-7162834</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a
+                href="https://www.facebook.com/ortowhiteco?mibextid=kFxxJD"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/ortowhite?igsh=MXB4cmx4emVsdGQzdA=="
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.tiktok.com/@ortowhite?_t=8qHBUPlguF3&_r=1"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-bottom" data-header>
+        <div class="container">
+          <a href="#" class="logo">Ortowhite</a>
+
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link
+                  >Servicio</a
+                >
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link
+                  >Acerca de nosotros</a
+                >
+              </li>
+
+              <li>
+                <a href="#footer" class="navbar-link" data-nav-link>Contacto</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a href="https://wa.me/+573107162834" target="_blank" class="btn">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle menu"
+            data-nav-toggler
+          >
+            <ion-icon
+              name="menu-sharp"
+              aria-hidden="true"
+              class="menu-icon"
+            ></ion-icon>
+            <ion-icon
+              name="close-sharp"
+              aria-hidden="true"
+              class="close-icon"
+            ></ion-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero"
+          id="home"
+          style="background-image: url('./assets/images/hero-bg.png')"
+          aria-label="hero"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="section-subtitle">Bienvenido a Ortowhite</p>
+
+              <h1 class="h2 hero-title">Somos el mejor servicio dental</h1>
+
+              <p class="hero-text">
+                Cuidar de tu sonrisa es nuestra prioridad.
+              </p>
+
+              <!--
+              <form action="" class="hero-form">
+                <input
+                  type="email"
+                  name="email_address"
+                  aria-label="email"
+                  placeholder="Your Email Address..."
+                  required
+                  class="email-field"
+                />
+
+                <button type="submit" class="btn">Get Call Back</button>
+              </form>
+              -->
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/test.jpg"
+                width="587"
+                height="839"
+                alt="hero banner"
+                class="w-100"
+                style="border-radius: 10px"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" id="service" aria-label="service">
+          <div class="container">
+            <p class="section-subtitle text-center">Nuestros servicios</p>
+
+            <h2 class="h2 section-title text-center">Ofrecemos</h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-1.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Odontología General</h3>
+
+                    <p class="card-text">
+                      Profilaxis. <br />
+                      Restauraciones. <br />
+                      Limpieza profunda.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-2.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Endodoncia</h3>
+
+                    <p class="card-text">Tratamiento de conducto.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-3.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Ortodoncia</h3>
+
+                    <p class="card-text">
+                      Inicio de tratamiento de ortodoncia con brackets de
+                      autoligado, convencionales, estéticos.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-banner">
+                <figure>
+                  <img
+                    src="./assets/images/service-banner.png"
+                    width="409"
+                    height="467"
+                    loading="lazy"
+                    alt="service banner"
+                    class="w-100"
+                  />
+                </figure>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-4.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Prótesis e Implantes</h3>
+
+                    <p class="card-text">
+                      Prótesis fija y removible. <br />
+                      Implante Dental. <br />
+                      Coronas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-5.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Odontologia estética</h3>
+
+                    <p class="card-text">
+                      Diseño de sonrisa. Aclaramiento Dental.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-6.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Cirugía Dental</h3>
+
+                    <p class="card-text">
+                      Exodoncias. <br />
+                      Cirugias de cordales.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/test2.jpg"
+                width="470"
+                height="538"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                style="border-radius: 10px"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">Acerca de nosotros</p>
+
+              <h2 class="h2 section-title">
+                Tomamos cuidado de tu salud dental.
+              </h2>
+
+              <p class="section-text section-text-1">
+                En nuestro consultorio odontológico, nos dedicamos a brindarte
+                un cuidado integral para tu salud bucal, con un enfoque
+                personalizado y profesional. Contamos con un equipo de
+                especialistas altamente capacitados, comprometidos con ofrecerte
+                una experiencia segura, cómoda y eficiente en cada visita.
+              </p>
+
+              <p class="section-text">
+                Ofrecemos una amplia gama de servicios, desde limpiezas dentales
+                de rutina y tratamientos de ortodoncia hasta procedimientos
+                avanzados como implantes y rehabilitación oral. Nos enfocamos en
+                el bienestar de cada paciente, utilizando tecnología de última
+                generación y materiales de la más alta calidad para garantizar
+                resultados duraderos y una sonrisa saludable. Nuestra misión es
+                mejorar tu salud bucal y tu calidad de vida, trabajando juntos
+                para lograr la mejor versión de tu sonrisa. ¡Estamos aquí para
+                ti y tu familia, cuidando cada detalle de tu salud dental con
+                pasión y dedicación!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #DOCTOR
+      -->
+
+        <section class="section doctor" aria-label="doctor">
+          <div class="container">
+            <p class="section-subtitle text-center">Nuestro doctor</p>
+
+            <h2 class="h2 section-title text-center">
+              El dentista con más experiencia
+            </h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="doctor-card">
+                  <div class="card-banner img-holder">
+                    <img
+                      src="./assets/images/test3.jpg"
+                      width="350"
+                      height="350"
+                      loading="lazy"
+                      alt="Howard Holmes"
+                      class="img-cover"
+                      style="border-radius: 10px"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Leonardo Angulo</a>
+                  </h3>
+
+                  <p class="card-subtitle">Odontólogo | Esp. en Ortodoncia</p>
+
+                  <ul class="card-social-list">
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!---->
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" id="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">Ortowhite.</a>
+
+            <p class="footer-text">
+              Es importante para nosotros que reserves tu cita antes de asistir
+              a nuestros consultorios.
+            </p>
+
+            <br />
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Otros links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+
+                <span class="span">Inicio</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#about" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+
+                <span class="span">Acerda de nosotros</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#service" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+
+                <span class="span">Servicios</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="footer" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+
+                <span class="span">Contacto</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Conócenos</p>
+            </li>
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                Bogota, Colombia <br />
+                Barrio Olaya <br />
+                C. 27 sur #19F-12 / Sur
+              </address>
+            </li>
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                Bogota, Colombia <br />
+                Barrio Cedro Golf <br />
+                Cra. 7a #148-24 / Norte
+              </address>
+            </li>
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <a href="https://wa.me/+573107162834"
+                  ><ion-icon name="logo-whatsapp"></ion-icon
+                ></a>
+              </div>
+
+              <a class="footer-link" target="_blank">
+                Agenda una cita
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Horarios</p>
+            </li>
+
+            <div class="schedule">
+              <div class="schedule-icon">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+
+              <span class="span">
+                Sede Olaya <br />
+                Lunes - Jueves y Sábados:
+                <br />
+                <strong>8:00 am - 7:00 pm</strong>
+                <br />
+                Domingos <br />
+                <strong>8:00 am a 12:00 pm</strong>
+              </span>
+            </div>
+
+            <br />
+
+            <div class="schedule">
+              <div class="schedule-icon">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+
+              <span class="span">
+                Sede Cedro Golf <br />
+                Viernes:
+                <br />
+                <strong>9:00 am - 7:00 pm</strong>
+                <br />
+                Domingos <br />
+                <strong>3:00 pm a 7:00 pm</strong>
+              </span>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2024 Todos los derechos reservados.</p>
+
+          <ul class="social-list">
+            <li>
+              <a
+                href="https://www.facebook.com/ortowhiteco?mibextid=kFxxJD"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/ortowhite?igsh=MXB4cmx4emVsdGQzdA=="
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.tiktok.com/@ortowhite?_t=8qHBUPlguF3&_r=1"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
