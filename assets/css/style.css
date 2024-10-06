@@ -683,7 +683,6 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-block: 10px;
   transition: var(--transition);
 }
 
